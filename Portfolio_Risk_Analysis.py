@@ -26,9 +26,9 @@ class PortfolioRiskAnalysis:
                 if not data.empty:
                     valid_tickers.append(ticker)
                 else:
-                    print(f"⚠️ Skipping {ticker} — no data found.")
+                    print(f"Skipping {ticker} — no data found.")
             except Exception as e:
-                print(f"⚠️ Error downloading {ticker}: {e}")
+                print(f"Error downloading {ticker}: {e}")
 
         if not valid_tickers:
             raise ValueError("No valid tickers found. Please check ticker symbols.")
