@@ -45,3 +45,9 @@ The program then shows your potential loss estimate and a nice chart of the dist
    ```bash
    git clone https://github.com/YourUsername/Portfolio-Risk-Analysis.git
    cd Portfolio-Risk-Analysis
+
+## Notes
+
+- Make sure your stock tickers are valid Yahoo Finance symbols (for example, TCS.NS instead of TCS).
+- Some companies (like private firms or newly listed ones) might not have data available.
+- For stress testing, enter shocks as decimal values (e.g. -0.05, -0.03 for -5% and -3%).
